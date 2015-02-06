@@ -1,0 +1,7 @@
+<p>Hi {{nick}}!</p>
+
+<p>Look what I found:</p>
+
+<a href="{{url}}">{{url}}</a>
+
+<p>Cheers!</p>

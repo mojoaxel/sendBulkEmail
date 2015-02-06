@@ -1,0 +1,30 @@
+{
+	"name": "sendBulkEmail",
+	"version": "0.0.1",
+	"description": "send mass eMail",
+	"keywords": [
+		"email"
+	],
+	"author": {
+		"name": "Alexander Wunschik",
+		"email": "alex@wunschik.net"
+	},
+	"main": "sendBulkEmail",
+	"bugs": {
+		"url": "https://github.com/mojoaxel/sendBulkEmail/issues"
+	},
+	"repository": {
+		"url": "https://github.com/mojoaxel/sendBulkEmail"
+	},
+	"dependencies": {
+		"nodemailer": "latest",
+		"async": "latest",
+		"csvtojson": "latest",
+		"handlebars": "latest"
+	},
+	"devDependencies": {},
+	"optionalDependencies": {},
+	"engines": {
+		"node": ">= 0.8"
+	}
+}

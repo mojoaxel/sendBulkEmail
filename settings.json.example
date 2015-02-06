@@ -1,0 +1,16 @@
+{
+	"transporterOptions": {
+		"host": "my.email.server",
+		"port": 465,
+		"secure": true,
+		"auth": {
+			"user": "myEmailUserLogin",
+			"pass": "myPasswort123"
+		}
+	},
+	
+	"send": {
+		"from": "Me <me@my.email.server>",
+		"subject": "Have you tried 'sendBulkMail'?"
+	}
+}
