@@ -9,9 +9,9 @@ npm install
 
 ## Send Mails
 
- # create a settings.json and add your mailserver an send parameters
- # create a recipients.csv and add all email-adresses you want to send to. A field "email" must be specified.
- # create a template.tpl by using the fields used in recipients.csv
+1. create a *settings.json* and add your mailserver an send parameters
+2. create a *recipients.csv* and add all email-adresses you want to send to. A field "email" must be specified.
+3. create a *template.tpl by* using the fields used in *recipients.csv*
  
 ```
 node sendBulkMail.js
